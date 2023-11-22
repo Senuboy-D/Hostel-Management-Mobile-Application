@@ -1,0 +1,50 @@
+.user-search {
+  padding: 20px;
+
+  border-radius: 5px;
+}
+
+.user-search h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px;
+  background-color: #1e90ff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #001475;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 3px;
+}
+
+.table th,
+.table td {
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}

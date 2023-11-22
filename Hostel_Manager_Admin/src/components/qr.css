@@ -1,0 +1,11 @@
+/* qr.css */
+.qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generate-qr-button,
+.download-qr-button {
+  margin: 10px;
+}

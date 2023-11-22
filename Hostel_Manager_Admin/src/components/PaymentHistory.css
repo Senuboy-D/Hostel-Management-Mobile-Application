@@ -1,0 +1,40 @@
+.payment-history {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.search-button {
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #007acc;
+}
+
+.search-button:active {
+    background-color: #004d8c;
+}
